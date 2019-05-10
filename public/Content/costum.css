@@ -1,0 +1,215 @@
+﻿body{direction:rtl;overflow-x:hidden;}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #2aa249;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+   
+}
+
+
+
+.panel-info>.panel-heading {
+    color: #31708f;
+    background-color: #2aa249;
+    border-color: #2aa249;
+}
+.panel-title {
+    color: #ffffff;
+}
+.min-height{min-height:300px;}
+.postion{    float: left;
+    margin: 15px;}
+.postiong{    float: left;}
+
+@media (max-width: 420px) {
+   
+    .panel-body{padding-right:5px;padding-left:5px;}
+    #MainContentDiv{background:none;}
+    .mob-non{display:none;}
+    .navbar-header{float:left;}
+    }
+.cust-drop{
+    width: 50%;
+}
+
+/********************************************************************/
+/*** PANEL DEFAULT ***/
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+}
+.with-nav-tabs.panel-default .nav-tabs > .open > a,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+	background-color: #ddd;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+	color: #555;
+	background-color: #fff;
+	border-color: #ddd;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #777;   
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #ddd;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #555;
+}
+
+/********************************************************************/
+
+.margin-bot{border-bottom:1px dashed rgba(0,0,0,.08);}
+.infograph{margin-top:-40px;}
+
+.max-wd {
+    max-width:200px;
+}
+/*login------------------------------*/
+.form-inbut{margin-bottom:20px;}
+.form-control{padding: 2px 12px;}
+.date-day{width:28%;display:inline-block;}
+.date-year{width:40%;display:inline-block;}
+/*-----------------------------------*/
+.progress{height: 50px;box-shadow:none;background-color:white;}
+.progress-bar-success{border-left: 1px dashed;}
+.progress-bar{font-size: 13px;line-height: 1.5;padding: 8px 0;color:black;width:auto; box-shadow: inset 0 -1px 0 rgb(92, 199, 120);
+              -webkit-box-shadow: inset 0 -1px 0 rgb(92, 199, 120);}
+.progress-bar-basic{background-color: #fff;}
+.progress-bar-basic-last{background-color: #ccc;}
+
+/*--------------------------------*/
+.radio-cust{padding-right:10px;padding-left:20px;}
+code{font-size:14px;background-color:none;}
+
+    .course-type {
+        border:none;
+    }
+.postion-course{margin: 15px 0 15px;}
+.center-btn{text-align:center;margin-top:20px;}
+.hr-sep{border:1px solid #4edab1;}
+@media (min-width: 1200px) {
+    .course-size {width:50%;
+    }
+    .prog-size{width:auto;}
+}
+@media (min-width: 800px) {
+    .table-width {width:50%;
+    }
+}
+
+.listlink{display:block;padding:5px 5px}
+a.list-group-item:focus, a.list-group-item:hover,a.list-group-item:active, button.list-group-item:focus, button.list-group-item:hover{background-color: #c7f4e1;}
+.warning-color{color:black;}
+.green{color:green}
+.red{color:red}
+.gray{color:gray;}
+.span-style{line-height:2.3;}
+
+ .calender-size{max-width:250px;}
+
+ .left{float:left;}
+ .vspace{padding:20px 0;}
+ .barcode{float:left;max-width:150px;}
+ .navbar-collapse.collapse.in{overflow-x:hidden;}
+ #li_Login a, #li_SignOut a{max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;}
+ .prog-done{padding: 7px;
+    background: #2aa249;
+    border-radius: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;margin-right:10px;}
+ .prog-warn{padding: 7px;
+    background: orange;
+    border-radius: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;margin-right:8px;}
+ .prog-wrong{padding: 7px 9px;
+    background: #cfcfcf;
+    border-radius: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;margin-right:10px;}
+ .hospaital-name{border:1px solid #ddd;padding:8px;margin:5px 0 5px 10px;width:80%;}
+ .cleardiv{clear:both;height:1px;}
+ .warn{color:orange;}
+ .v-align{vertical-align:middle !important;}
+ .pad0{padding:8px 0 !important;}
+ .center{text-align:center;margin-left:auto;margin-right:auto;margin-bottom:10px;}
+ .btn-custom{    padding: 3px !important;
+    margin-bottom: 5px !important;}
+ .active-color{    color: #000;
+    font-weight: bold;}
+ .border-c-panel{border: 1px solid #e6e6e6;}
+.input-margin {
+    margin-top:15px;
+}
+.checkbox-inline input[type=checkbox] {
+position:unset;
+}
+
+
+/*------------------------------------*/
+.payment-title{border-bottom:#189077 1px solid;margin-bottom:2em;margin-top:-5px;}
+.h3 {
+    font-size: 16px;
+}
+  .weight {font-weight:normal;}
+  .bold{font-weight:bold;}
+  .center{text-align:center;}
+  .larg{width:100%;margin-top:10px;}
+  .blak{color:black;}
+.alert-secondary {
+    color: #383d41;
+    background-color: #f1f2f6;
+    border-color: #d6d8db;
+}
+  
+
+.filter-option {
+    text-align: right !important;
+}
+
+/*24-7-2108------------------------------------------------*/
+.container{max-width:1200px;}
+h3{line-height:1.8;}
+#tweeterAndIcons{background-size: auto;}
+.pad-top{padding-top:15px;}
+ .clear30{clear:both;height:30px;}
+ .no-padding{margin-left:auto !important;margin-right:auto !important;}
+
+ /*4-9-2018---------------------------------------------*/
+
+ .Quiz_h_f, .question > span:first-child{line-height:2;}
+  .rtl{direction:rtl;}
+input#AcceptSave {
+    margin: 0 5px;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{margin-left:5px;}
+.inline{display:inline-block;}

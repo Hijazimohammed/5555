@@ -1,0 +1,492 @@
+﻿.exam
+{
+    width: 650px;
+    margin-left: 20px;
+    float: right;
+}
+
+.examQuestions
+{
+    height: 390px;
+    padding: 0;
+}
+
+.examstatus
+{
+    margin-top:15px;
+    padding: 15px;
+    height: 30px;
+}
+.status
+{
+    width: 230px;
+    float: right;
+}
+
+
+.examNav {
+    float: right;
+}
+
+.examNav ul {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.examNav ul > li {
+    display: inline;
+}
+
+.examNav ul > li > a {
+    float: right;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-left-width: 0;
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.examNav ul > li > a:hover, .examNav ul > li > a:focus, .examNav ul > .active > a {
+    background-color: #f5f5f5;
+}
+
+.examNav ul > li > .active {
+    color: #999;
+    background-color: #F5F5F5;
+    cursor: default;
+}
+
+.examNav ul > li > .disabled, .examNav ul > li > .disabled:hover {
+    color: #999;
+    background-color: transparent;
+    cursor: default;
+}
+
+.examNav ul > li:first-child > a {
+    border-right-width: 1px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.examNav ul > li:last-child > a {
+    border-left-width: 1px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.examstatus .QuestionNum
+{
+   float:right;
+   margin-right:30px;
+   font-family:Tahoma;
+   font-size:16px;
+   line-height:28px;
+}
+.examstatus .QuestionNum b
+{
+    font-size: 18px;
+}
+
+.examstatus .RevionQuestionNum
+{
+   float:right;
+   margin-right:50px;
+   font-family:Tahoma;
+   font-size:16px;
+   line-height:28px;
+}
+.examstatus .RevionQuestionNum b
+{
+    font-size: 18px;
+}
+
+.examstatus .finish
+{
+    float: left;
+}
+
+.Question
+{
+    display: none;
+}
+.QuestionSignals
+{
+    display: none;
+}
+
+.QuestionOption
+{
+    padding:15px;
+    }
+
+.QuestionContent
+{
+    padding: 0px;
+}
+
+.QuestionType
+{
+    float: left;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #A2A2A2;
+}
+.QuestionName
+{
+    background-color: #F9F9F9;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+    font-family: Microsoft Sans Serif;
+    text-shadow: 0 0 0;
+}
+
+.QuestionAnswers
+{
+    padding: 10px 35px 20px 10px;
+    float:right;
+    width:500px;
+}
+
+.QuestionAnswers p
+{
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 0 0;
+    margin-top: 20px;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    cursor: pointer;
+}
+.blodtext
+{
+    font-weight: bold;
+}
+.spanWidth
+{
+    width: 420px;
+}
+
+.info
+{
+    background: url("../images/site/setting.png") no-repeat scroll 15px 27px transparent;
+    height: 55px;
+    width: 22px;
+}
+.info:hover
+{
+    background: url("../images/site/setting.png") no-repeat scroll 15px -48px transparent;
+}
+
+.popover-info
+{
+    width: 180px;
+    height: 120px;
+    float: right;
+}
+.std-info
+{
+    height: 90px;
+}
+
+.tec-info
+{
+    padding-top: 15px;
+    height: 75px;
+}
+
+.std-info .box-info
+{
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.tec-info .box-info
+{
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.changepassword
+{
+    text-align: center;
+    height: 20px;
+}
+
+
+
+.popover-img
+{
+    width: 90px;
+    height: 120px;
+    float: right;
+    text-align: center;
+}
+
+.popover-img img
+{
+    margin-bottom: 15px;
+    width: 75px;
+    height: 75px;
+}
+
+.samalogo
+{
+    opacity: 0.7;
+}
+
+.samalogo:hover
+{
+    opacity: 0.99;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.copyright
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.profile
+{
+    top: 50px;
+    left: 79px;
+    width: 300px;
+}
+
+.passworddiv
+{
+    width: 400px;
+    padding: 25px 50px 50px 50px;
+    margin-top: 75px;
+}
+
+.logindiv
+{
+    width: 375px;
+    padding: 25px 50px 50px 50px;
+    margin-top: 75px;
+}
+
+.micdiv
+{
+    width: 800px;
+    padding: 25px 50px 50px 50px;
+    margin-top: 75px;
+}
+
+.tahomafont
+{
+    font-family: Tahoma;
+}
+.fontsize20
+{
+    font-size: 20px;
+}
+.fontsize18
+{
+    font-size: 18px;
+}
+.fontsize17
+{
+    font-size: 17px;
+}
+.fontsize16
+{
+    font-size: 16px;
+}
+.fontsize15
+{
+    font-size: 15px;
+}
+.fontsize14
+{
+    font-size: 14px;
+}
+.fontsize12
+{
+    font-size: 13px;
+}
+.fontsize12
+{
+    font-size: 12px;
+}
+
+.about-profiles
+{
+    margin: 0 auto;
+    width: 500px;
+    height: 150px;
+}
+
+.about-profiles-info
+{
+    width: 170px;
+    float: right;
+}
+
+.about-profiles-img
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.list-image
+{
+    padding-left: 10px;
+}
+
+.about-profiles-info li
+{
+    margin-bottom: 6px;
+}
+
+.fixdheader
+{
+    position: fixed;
+}
+
+.fixdheadercontent
+{
+    padding-top: 75px;
+}
+
+.ajaxExam
+{
+    position: fixed;
+    bottom: 40%;
+    left: 40%;
+    padding: 15px;
+    z-index: 1050;
+    font-size: 18px;
+    border: 5px solid #f7dba6;
+}
+.EndExam
+{
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+}
+.ResultExam
+{
+    position: fixed;
+    z-index: 101;
+    padding: 10px 20px;
+}
+.SignalExam
+{
+    margin-top: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 5px;
+}
+.line25
+{
+    line-height: 25px;
+}
+
+.marginleft75
+{
+    margin-left: 75px;
+}
+.contactSocial
+{
+    border-top: 1px dashed #D6D6D6;
+    margin: 15px 30px 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.contactSocial a
+{
+    padding-right: 18px;
+    height: 18px;
+    width: 18px;
+    margin-left: 8px;
+}
+
+.icon-facebook
+{
+    background-image: url('../images/site/facebookicon.html');
+}
+
+.icon-twitter
+{
+    background-image: url('../images/site/twittericon.html');
+}
+
+.icon-phone
+{
+    background-image: url('../images/site/phoneicon.html');
+}
+
+.btn-finish
+{
+    padding: 12px 22px;
+}
+#Signals
+{
+    margin-top: 10px;
+    border: 1px solid #d2d2d2;
+    height: 422px;
+    width: 220px;
+    padding: 4px;
+}
+.Signal
+{
+    float: right;
+    width: 100px;
+    padding: 3px 5px;
+    text-align: center;
+}
+.Signal img
+{
+    width: 80px;
+    height: 80px;
+}
+.Signal p
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.wajedimg
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.spanSignal
+{
+    width: 220px;
+    padding: 0;
+}
